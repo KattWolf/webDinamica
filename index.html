@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Beehive</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/beesComponent.css">
+	<link rel="stylesheet" href="css/beeComponent.css">
+</head>
+
+<body>
+	<!-- Contenedor padre -->
+	<div class="appComponent">
+		<!-- Cada Bee -->
+		<div id="beesComponent" class="beesComponent">
+			<!-- Actividad de un bee -->
+			<div class="beeActivityComponent">
+				<div id="postsComponent" class="postsComponent">
+					<div id="commentsComponent" class="commentsComponent"></div>
+				</div>
+				<div id="albumComponent" class="albumComponent">
+					<div id="photosComponent" class="photosComponent"></div>
+				</div>
+				<div id="todosComponent" class="todosComponent"></div>
+			</div><!-- Actividad de un bee -->
+		</div><!-- Cada Bee -->
+	</div><!-- Contenedor padre -->
+
+	<script src="index.js"></script>
+	<script src="managers/dataManager.js"></script>
+	<script src="managers/navManager.js"></script>
+	<script src="models/bee.js"></script>
+	<script src="models/address.js"></script>
+	<script src="models/geo.js"></script>
+	<script src="models/company.js"></script>
+	<script src="models/album.js"></script>
+	<script src="models/comment.js"></script>
+	<script src="models/photo.js"></script>
+	<script src="models/post.js"></script>
+	<script src="models/todo.js"></script>
+	<script src="components/component.js"></script>
+	<script src="components/beeComponent.js"></script>
+	<script src="components/postComponent.js"></script>
+	<script src="components/todoComponent.js"></script>
+	<script src="components/albumComponent.js"></script>
+	<script src="components/photoComponent.js"></script>
+	<script src="components/commentComponent.js"></script>
+</body>
+</html>

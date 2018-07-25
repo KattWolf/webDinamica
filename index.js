@@ -53,12 +53,12 @@ function init() {
 		request.onreadystatechange = requestPhotoDataComplete;
 		request.send();
 	}
-	// function requestCommentData(){
-	// 	var request = new XMLHttpRequest();
-	// 	request.open('GET', 'https://jsonplaceholder.typicode.com/comments');
-	// 	request.onreadystatechange = requestCommentDataComplete;
-	// 	request.send();
-	// }
+	function requestCommentData(){
+		var request = new XMLHttpRequest();
+		request.open('GET', 'https://jsonplaceholder.typicode.com/comments');
+		request.onreadystatechange = requestCommentDataComplete;
+		request.send();
+	}
 
 	// Se parsean los datos
 	function requestUsersDataCompleted(e) {
